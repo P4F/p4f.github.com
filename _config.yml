@@ -21,12 +21,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: p4f
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -75,3 +75,25 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+members:
+  jacobsoo:
+    name: Jacob Soo
+    display_name: jacobsoo
+    gravatar:
+    email: jacob[dot]soo[at]gmail[dot]com
+    web: http://vxsecurity.sg/
+    twitter: _jsoo
+    github: jacobsoo
+    title: Couch Potato
+    bio:
+  klks84:
+    name: klks84
+    display_name: klks84
+    gravatar:
+    email: -
+    web: -
+    twitter: klks84
+    github: klks
+    title: Dude stealing post-it passwords
+    bio:
