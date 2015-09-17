@@ -110,6 +110,21 @@ img {
   max-width: 100%;
 }
 
+img.before {
+float: left;
+  margin: 12px 15px 5px 0px;
+  display: inline;
+}
+
+ul {
+  list-style-position: inside;
+  display: block;
+}
+
+div.member {
+  overflow: hidden;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;

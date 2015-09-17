@@ -13,7 +13,9 @@ permalink: /about/
 {% else %}
 <img class="before" src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=150"alt="{{ member.display_name }}" width="150" height="150"></a>
 {% endif %}
-<h2>{{ member.display_name }}, {{ member.title }}</h2>
+{% if member.title %}<h2>{{ member.display_name }}, {{ member.title }}</h2>
+{% else %}<h2>{{ member.display_name }}</h2>
+{% endif %}
 <ul>
 <li>Twitter: <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></li>
 {% if member.web %}<li>Web: <a href="{{ member.web }}">{{ member.web }}</a></li>{% endif %}
