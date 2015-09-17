@@ -9,10 +9,7 @@ permalink: /about/
 <div id="{{ member.display_name }}" class="member">
 <p></p>
 <a href="{{ member.web }}">
-<img 
-class="before" src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=150"
-alt="{{ member.display_name }}" width="150" height="150">
-</a>
+<img class="before" src="http://www.gravatar.com/avatar/{{ member.gravatar }}?s=150"alt="{{ member.display_name }}" width="150" height="150"></a>
 <h2>{{ member.display_name }}, {{ member.title }}</h2>
 <ul>
 <li>Twitter: <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a></li>
