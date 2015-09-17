@@ -81,6 +81,7 @@ members:
     name: Jacob Soo
     display_name: jacobsoo
     gravatar:
+    navatar:
     email: jacob[dot]soo[at]gmail[dot]com
     web: http://vxsecurity.sg/
     twitter: _jsoo_
@@ -91,9 +92,20 @@ members:
     name: klks84
     display_name: klks84
     gravatar:
+    navatar:
     email:
     web:
     twitter: klks84
     github: klks
     title: Dude stealing your post\-it passwords
     bio:
+  CodeAndSec:
+    display_name: CodeAndSec
+    gravatar:
+    navatar: https://pbs.twimg.com/profile_images/495394268781887489/iNZFUzH1_400x400.png
+    email: info@codeandsec.com
+    web: https://www.codeandsec.com/
+    twitter: CodeAndSec
+    github: CodeAndSec
+    title: 
+    bio: Developer/PenTester/Programmer
