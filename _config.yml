@@ -97,13 +97,13 @@ members:
     web:
     twitter: klks84
     github: klks
-    title: Dude stealing your post\-it passwords
+    title: Dude stealing your post-it passwords
     bio:
   CodeAndSec:
     display_name: CodeAndSec
     gravatar:
     navatar: https://pbs.twimg.com/profile_images/495394268781887489/iNZFUzH1_400x400.png
-    email: info@codeandsec.com
+    email: info[at]codeandsec[dot]com
     web: https://www.codeandsec.com/
     twitter: CodeAndSec
     github: CodeAndSec
@@ -113,7 +113,7 @@ members:
     display_name: sine
     gravatar:
     navatar: https://pbs.twimg.com/profile_images/1118700958/dna-double-helix-347.jpg
-    email: 73696e65@gmail.com
+    email: 73696e65[at]gmail[dot]com
     web: https://keybase.io/sine
     twitter: 73696e65
     github: 73696e65
