@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ekoparty 2015 Pre-ctf : Crypto 25 (Base unknown)
+title: Ekoparty 2015 Pre-ctf - Crypto 25 (Base unknown)
 ---
 
 Description given : IVFU662CIFJUKXZTGJPWG2DBNRWH2===
