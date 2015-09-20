@@ -3,10 +3,6 @@ layout: post
 title: Ekoparty 2015 Pre-ctf - Web 50
 ---
 
-# EkoParty
-
-## Web50
-
 As we navigate to `http://challs.ctf.site:10000/hackersmarket/` we see a 'hackersmarket' where you can buy and sell exploits! Well, let us see if we can break in and steal the exploits ourselves shall we? :) As we navigate to the separate pages you can see the `p` parameter changing of the `index.php` file changing. The unconventional .tpl extension is being used to reference page content. This looks ripe for a local file inclusion attack! Typically this involves `../../../../../passwd` which should be displayed, but inclusion of and `..\` appears to cause a redirect to the home page. Looking some more we see `1NULLo3KCSKeCZeDQc7ZxY8xcbYiDGrnbY` for a bitcoin address. That `NULL` looks out of place, maybe a clue? Simply doing `http://challs.ctf.site:10000/hackersmarket/index.php?p=index.php` displays the page overlapped, so this indicates the code is being executed twice. If we look at the page source there is some PHP code:
 
 ```
