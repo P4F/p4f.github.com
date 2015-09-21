@@ -19,7 +19,7 @@ This was sent
 00000000  00 08 00 00 07 31 f9 e9                          .....1.. 
 ```
 
-And this was recieved
+And this was received
 
 ```
     00000000  00 44 00 00 07 32 00 01  00 00 00 00 00 25 f2 a9 .D...2.. .....%..
@@ -79,17 +79,17 @@ Using the "key", we tried the most obvious, to xor the data with it
 Using the same xor key, we decoded the second the 2nd send, it was requesting for flag.png
 
 By now we had thought that we had this in the bag, use the same xor key and profit! :D
-But when that didnt work, we took a valid png and tried to figure out the "new" xor key.
+But when that didn't work, we took a valid png and tried to figure out the "new" xor key.
 To decode the header, the key 0x50 0x3F was used, by now, we thought this is it, we win!.
 But the organizers had a crueler fate planned for us and once again we were down a deeper rabbit hole.
 After much mucking around it finally hit us, the packet header must contain some sort of key that is sent back with it to decode the data.
-And after much experimentation we managed to solve this challnge.
+And after much experimentation we managed to solve this challenge.
 
 ![alt text](../images/csaw_quals_2015/for150_pcap_dump.png "Hexdump")
 
 SIMPLE MY ASS! :D
 
-Our final script to deocde the png looks like below
+Our final script to decode the png looks like below
 
 ```
 import struct
