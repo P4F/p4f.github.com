@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSAW CTF Qualification Round 2015 - Forensics (Keep Calm and CTF, )
+title: CSAW CTF Qualification Round 2015 - Forensics100 (Keep Calm and CTF, Transfer & Flash)
 ---
 
 ## Forensics 100 (Keep Calm and CTF)
