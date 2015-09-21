@@ -40,6 +40,7 @@ If we do a "Follow TCP Trace" in Wireshark, we could see the image as shown belo
 
 ![alt text](../images/csaw_quals_2015/for100.Transfer.0x0002.png "TCP Trace")
 
+
 ```python
 import string
 import random
@@ -77,10 +78,12 @@ if __name__ == '__main__':
 ```
 
 
+
 As we can see from the extracted code snippet, we got a missing function `caesard`
 Ok, now let's try to write the function for the missing function `caesard`
 
 The following is the code we used.
+
 
 
 ```python
