@@ -7,7 +7,7 @@ This is how we solved Forensics 150 :)
 
 For this challenge, we were presented with a pcap file : [pcapin_73c7fb6024b5e6eec22f5a7dcf2f5d82.pcap](../uploads/csaw_quals_2015/pcapin_73c7fb6024b5e6eec22f5a7dcf2f5d82.pcap)
 
-If you stare at the image below long enough, you will see a pattern oh how the transaction is taking place.
+If you stare at the image below long enough, you will see a pattern on how the transaction is taking place.
 
 ![alt text](../images/csaw_quals_2015/for150_pcap_hexdump.png "Pcap Hexdump")
 
@@ -60,14 +60,14 @@ And this was recieved
     00000220  45 4e 44                                         END
 ```
 
-By looking at the structure of the bytes, we initially came up with this structure for the data recieved.
+By looking at the structure of the bytes, we initially came up with this structure for the data received.
 
 ```
     WORD wPacketLength
     WORD wUnknown1
     WORD wMarker1
     WORD wUnknown2
-    DWORD dwUnknown3
+    DWORD dw Unknown 3
     BYTE bPacketData[wPacketLength-12]
 ```
 
