@@ -6,14 +6,14 @@ title: CSAW CTF Qualification Round 2015 - Lawn Care Simulator
 A game that you can click to grow your grass! Neat! Well let us take a look around shall we? If you take a look at the source code under the premium section there is an interesting JS segment:
 
 ```html
-        function init(){
-            document.getElementById('login_form').onsubmit = function() {
-                var pass_field = document.getElementById('password'); 
+function init(){
+    document.getElementById('login_form').onsubmit = function() {
+        var pass_field = document.getElementById('password'); 
                 pass_field.value = CryptoJS.MD5(pass_field.value).toString(CryptoJS.enc.Hex);
         };
-        $.ajax('.git/refs/heads/master').done(function(version){$('#version').html('Version: ' +  version.substring (0,6))});
-        initGrass();
-    }
+    $.ajax('.git/refs/heads/master').done(function(version){$('#version').html('Version: ' +  version.substring (0,6))});
+    initGrass();
+}
 ```
 
 An ajax request is being made to the .git/refs/heads/master file. This indicates that the version is the commit hash being pulled from this master head file. What is interesting to us though is that this website appears to be hosted directly from a folder containing git information. Well let's try cloning it:
