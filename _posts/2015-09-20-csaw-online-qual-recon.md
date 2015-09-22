@@ -27,7 +27,7 @@ http://fuzyll.com/csaw2015/enigma
 
 `CSAW 2015 FUZYLL RECON PART 4 OF 5: Okay, okay. This isn't Engima, but the next location was "encrypted" with the JavaScript below: Pla$ja|p$wpkt$kj$}kqv$uqawp$mw>$+gwes6451+pla}[waa[ia[vkhhmj`
 
-```
+```html
 var s = "Pla$ja|p$wpkt$kj$}kqv$uqawp$mw>$+gwes6451+pla}[waa[ia[vkhhmj"
 var c = ""
 for (i = 0; i < s.length; i++) {
@@ -51,4 +51,4 @@ https://twitter.com/HockeyInJune/status/641716034068684800
 
 Unfortunately our team did not finish this challenge, it appears that that they were looking to lead us with hints to: https://ctf.isis.poly.edu/static/archives/2013/competitors/index.html
 
-
+On this page there is a flag: `flag{next_year_was_Team_Wartortle_right_guys?}`
