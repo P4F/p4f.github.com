@@ -11,10 +11,17 @@ Here are the trivia answers:
 No More Free **Bugs**!
 
 **Q:** This mode on x86 is generally referred to as ring -2. 
+
 **A:** `System Management Mode`
 
 **Q:** This vulnerability occurs when the incorrect timing/sequence of events may cause a bug. 
+
 **A:** `Race Condition`
 
 **Q:** On Windows, loading a library and having it's code run in another process is called _ . 
+
 **A:** `DLL Injection`
+
+**Q:** This Pentesting expert supplied HBO's Silicon Valley with technical advice in season 2. The flag is his twitter handle.
+
+**A:** mubix
