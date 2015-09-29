@@ -201,7 +201,7 @@ The key is one of the keys related to a famous vulnerable random generator.
 Have fun!
 ```
 
-By Googling for *famous vulnerable random generator* we've seen that there are references to the *Debian OpenSSL Bug*. Hence, by Googling for *Debian OpenSSL keys* we were being brought to the *Debian OpenSSL Predictable PRNG* Github repository (https://github.com/g0tmi1k/debian-ssh). By using its collection of *predictable* SSH/RSA private keys in a brute-force manner we got the following results:
+By Googling for *famous vulnerable random generator* we've seen that there are references to the *Debian OpenSSL Bug*. Hence, by Googling for *Debian OpenSSL keys* we were being brought to the *Debian OpenSSL Predictable PRNG* Github repository ([https://github.com/g0tmi1k/debian-ssh](https://github.com/g0tmi1k/debian-ssh)). By using its collection of *predictable* SSH/RSA private keys in a brute-force manner we got the following results:
 
 ```
 $ wget https://github.com/g0tmi1k/debian-ssh/raw/master/common_keys/debian_ssh_rsa_2048_x86.tar.bz2
