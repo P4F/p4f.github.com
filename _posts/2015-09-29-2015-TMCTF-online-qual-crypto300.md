@@ -107,7 +107,7 @@ Level 3 quest's hint :
 Have fun!
 ```
 
-By visiting the (*most popular packet analyzer*) Wireshark's Github repository (https://github.com/wireshark/wireshark), we found the following files inside the directory */test/keys*:
+By visiting the (*most popular packet analyzer*) Wireshark's Github repository ([https://github.com/wireshark/wireshark](https://github.com/wireshark/wireshark)), we found the following files inside the directory */test/keys*:
 
 ```
 dhe1_keylog.dat     add a test for SSL/TLS decryption using the master secret
@@ -160,7 +160,7 @@ Level 4 quest's hint :
 Have fun!
 ```
 
-By visiting the (*most famous implementation of Python*) CPython's Github repository (https://github.com/python/cpython), we found the file *ssl_key.pem* inside the directory */Lib/test*. Using it we got the following results:
+By visiting the (*most famous implementation of Python*) CPython's Github repository ([https://github.com/python/cpython](https://github.com/python/cpython)), we found the file *ssl_key.pem* inside the directory */Lib/test*. Using it we got the following results:
 
 ```
 $ wget https://raw.githubusercontent.com/python/cpython/master/Lib/test/ssl_key.pem
