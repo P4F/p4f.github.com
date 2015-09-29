@@ -248,6 +248,7 @@ What I did is, I placed a breakpoint in Congragulations code in IDA, did the cli
 Then after 10M clicks, I read the shared_prefs (or I could've just combined the strings from Score code), it gave me: **Q2xpY2tzCg**
 
 So adding the two string plus **BN** and **MT** in correct order, we get:
+
 **Q29uZ3JhdHNfMTBNQ2xpY2tzCg==**
 
 So we do:
