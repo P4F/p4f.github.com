@@ -3,13 +3,13 @@ layout: post
 title: TMCTF Qualification Round 2015 - Crypto 300
 ---
 
-For this challenge, the description was:
+Description for this challenge was:
 
 ```
 What is the most famous default password of "keystore"?
 ```
 
-with provided password protected file level1.zip.
+along with the provided password protected file *level1.zip*.
 
 Googling for *famous default password keystore* gave us the following entry at the first page of results:
 
@@ -19,6 +19,7 @@ Setting a Keystore Password - JXplorer (jxplorer.org/help/Setting_a_Keystore_Pas
 The cacerts keystore file has a default password of changeit; the clientcerts keystore file has a default password of passphrase. This option allows you to set a ...
 ```
 
+
 Trying to open the password protected file *level1.zip* with the password *changeit* was a success. Inside of it there were three files:
 
 ```
@@ -27,7 +28,7 @@ level2.key.encrypted
 Readme.txt
 ```
 
-Content of Readme.txt was as follows:
+Content of file *Readme.txt* was as follows:
 
 ```
 Welcome to the published key quest!
@@ -56,7 +57,7 @@ The key of the most famous "Snakeoil" CA.
 Have fun!
 ```
 
-Googling for *Snakeoil CA ext:key* resulted with the following entry at the first page (*libapache-mod-ssl*):
+Googling for *Snakeoil CA ext:key* resulted with the following entry at the first page:
 
 ```
 libapache-mod-ssl/snakeoil-ca-rsa.key at master ... - GitHub (https://github.com/...mod-ssl/.../snakeoil-ca-rsa.key)
